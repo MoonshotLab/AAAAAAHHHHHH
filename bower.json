@@ -1,0 +1,14 @@
+{
+  "name": "AAAAAAHHHHHH",
+  "version": "0.0.1",
+  "authors": [
+    "Joe Longstreet <joelongstreet@gmail.com>"
+  ],
+  "description": "A game",
+  "main": "app.js",
+  "license": "MIT",
+  "homepage": "joelongstreet.com",
+  "dependencies": {
+    "phaser": "~2.3.0"
+  }
+}
