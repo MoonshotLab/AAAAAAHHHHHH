@@ -116,6 +116,6 @@ function gotStream(stream) {
     $volume.textContent = Math.round(meter.volume * 100);
   }, 10);
 
-  var game = new Game();
-  game.init();
+  window.ahhh = new Ahhh();
+  window.ahhh.init();
 }
