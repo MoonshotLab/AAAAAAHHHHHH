@@ -4,10 +4,22 @@ body{
   background-color: rgba(0,0,0,.9);
 }
 
+h1{
+  margin-bottom: 0;
+}
+h3{
+  margin-top: 3px;
+  opacity: .6;
+}
+
 ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+li{
+  display: inline-block;
+  margin-right: 100px;
 }
 #stats{
   float: right;
