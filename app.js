@@ -63,7 +63,7 @@ var $volume = null;
 
 window.onload = function() {
 
-  $volume = document.getElementById('volume');
+  $volume = document.getElementById('volume-val');
 
   // monkeypatch Web Audio
   window.AudioContext = window.AudioContext || window.webkitAudioContext;
@@ -113,7 +113,7 @@ function gotStream(stream) {
   mediaStreamSource.connect(meter);
 
   setInterval(function() {
-    $volume.textContent = meter.volume * 100;
+    $volume.textContent = Math.round(meter.volume * 100);
   }, 10);
 
   var game = new Game();

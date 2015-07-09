@@ -1,0 +1,26 @@
+body{
+  color: white;
+  font-family: Helvetica;
+  background-color: rgba(0,0,0,.9);
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#stats{
+  float: right;
+  font-size: 110%;
+  margin: 10px 0;
+  font-size: 130%;
+}
+#debug{
+  margin-top: 10px;
+  opacity: .5;
+}
+
+#wrapper{
+  width: 800px;
+  margin: auto;
+}
